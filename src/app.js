@@ -23,9 +23,7 @@ app.use(helmet({
 
 // Configuración de CORS
 app.use(cors({
-    origin: process.env.NODE_ENV === 'production' 
-        ? ['https://tu-dominio.com'] // Cambiar por el dominio en producción
-        : ['http://localhost:3000', 'http://localhost:3001', 'http://127.0.0.1:3000'],
+    origin: true, // Permitir acceso desde cualquier origen
     credentials: true,
     optionsSuccessStatus: 200
 }));
