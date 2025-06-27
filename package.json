@@ -1,0 +1,35 @@
+{
+  "name": "backend_prueba",
+  "version": "1.0.0",
+  "description": "API REST para gestión de productos y carrito de compras con Node.js, Express y SQL Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanQL/BACKEND_PRUEBA_DEV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DylanQL/BACKEND_PRUEBA_DEV/issues"
+  },
+  "homepage": "https://github.com/DylanQL/BACKEND_PRUEBA_DEV#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.0",
+    "mssql": "^11.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
